@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Poppins:wght@300;400&family=Quattrocento:wght@400;700&family=Ubuntu&display=swap');
+
 .text{
     color: #012555;
 font-family: Bai Jamjuree;
@@ -195,3 +197,41 @@ input{
     width: 300px;
     border:none
 }
+.phone{
+    display: flex;
+width: 366px;
+padding: 14px 6px 14px 10px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FAFAFA;
+margin-top: 12px;
+}
+.apply_button{
+    display: flex;
+width: 367px;
+padding: 14px 6px 14px 16px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+border-radius: 8px;
+background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
+margin-top: 10px;
+}
+.button > p{
+    color: #818D9D;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+margin-top: 10px;
+}
+.termsConditions{
+    color: var(--PRIMARY-SKY-BLUE, #2F80ED);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* finish hero section  */
